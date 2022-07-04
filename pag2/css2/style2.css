@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI, tahoma, arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+#principal{
+    width: 75%;
+    margin:auto;
+}
+/*------------MENU-PRINCIPAL-------------*/
+.topo{
+    background-color: rgb(80, 80, 255);
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.logotipo{
+    width: 140px; 
+    margin: 15px 0 0 160px;    
+}
+
+.topo ul{
+    position: fixed;
+    top:5px;
+    right:60px;
+}
+.topo li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.topo a{
+    text-decoration: none;
+    color:rgb(185, 185, 184);
+}
+.topo a:hover{
+    color: white;
+}
+
+/*-------MOSTRANDO-O-PAINEL----------------------*/
+
+.sobre_painel{
+    padding: 80px 0px 80px 0px;
+    text-align: center;    
+}
+.painelbasico{  
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(126, 126, 126);    
+}
+.sobre_painel_text h1{
+    text-transform: uppercase;
+}
+.sobre_painel_text {
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.texto2{
+    margin-bottom: 90px;
+}
+
+/*----------------------RODAPÉ-------------------*/
+footer{
+    background-color: rgb(80, 80, 255);
+    text-align: center;
+    height: 50px;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    line-height: 50px;
+}
